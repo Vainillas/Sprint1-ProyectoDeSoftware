@@ -1,0 +1,27 @@
+.header {
+    margin: 0;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    background-color: #020F2A;
+    font-size: 17px;
+    padding: 8px 20px;   
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+}
+.navbar :hover{
+    color: goldenrod;
+}
