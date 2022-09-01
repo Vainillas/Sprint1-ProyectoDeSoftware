@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Kanit-SemiBoldItalic";
+  src: url("../font/Kanit/Kanit-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "K";
+  src: url("../font/Kanit/Kanit-Light.ttf");
+}
+@font-face {
+  font-family: "KB";
+  src: url("../font/Kanit/Kanit-Regular.ttf");
+}
+
+.background {
+  padding-top: 50px;
+  height: 3450px;
+  background-image: url("../img/fondo_catar.jpg");
+  background-size: 150px 200px;
+}
+
+.phase-title {
+  text-align: center;
+  font-family: "Kanit-SemiBoldItalic";
+  padding: 5px 15px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 10px;
+  border: black solid 3px;
+}
+
+.phase-container {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-height: 150px;
+  height: auto;
+  border-radius: 10px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.game-container-final {
+  margin: auto;
+  width: 220px;
+  margin-top: 17px;
+  height: 90px;
+  border: black solid 1px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.game-container-semifinal {
+  margin: auto;
+  width: 220px;
+  margin-top: 17px;
+  height: 90px;
+  border: black solid 1px;
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  margin-left: 22%;
+  margin-bottom: 27px;
+}
+
+.game-container-round-of-16 {
+  margin: auto;
+  width: 220px;
+  margin-top: 27px;
+  height: 90px;
+  border: black solid 1px;
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  margin-left: 6%;
+  margin-bottom: 27px;
+}
+
+.game-container-group-phase {
+  margin: auto;
+  width: 220px;
+  margin-top: 10px;
+  height: 90px;
+  border: black solid 1px;
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  margin-left: 8%;
+  margin-bottom: 27px;
+}
+
+.group-container {
+  margin-left: 5%;
+  float: left;
+  margin: 30px;
+  border: black solid 1px;
+  height: 450px;
+  width: 580px;
+  background-color: rgb(245, 245, 35);
+  border-radius: 10px;
+}
+
+.group-title {
+  text-align: center;
+  font-family: "K";
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(22, 21, 21);
+  font-size: larger;
+}
+
+.game-text {
+  border-top: 1px solid black;
+  font-family: "K";
+  padding: 10px 12px;
+  font-weight: bold;
+  width: 70%;
+}
+
+.game-time {
+  text-align: center;
+  font-family: "KB";
+  padding: 12px 18px;
+  font-weight: bold;
+  width: 50px;
+  float: right;
+  height: 57px;
+  padding-top: 20px;
+  border: solid black 1px;
+  background-color: orange;
+  padding-right: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
